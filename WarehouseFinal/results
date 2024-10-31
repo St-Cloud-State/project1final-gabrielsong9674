@@ -1,0 +1,430 @@
+Script started on 2024-10-31 00:19:45+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="40"]
+[0;32m@gabrielsong9674 [0m➜ [1;34m/workspaces/project1final-gabrielsong9674/WarehouseFinal [0;36m([1;31mmain[0;36m) [0m$ java UserInterfa ce
+Look for saved data and  use it? (Y|y)[es] or anything else for no
+n
+Enter a number between 0 and 13 as explained below:
+0 to Exit
+
+1 to add a client
+2 to display clients
+3 to add a product
+4 to display products
+5 to add products to a clients wishlist
+6 to display a clients wishlist
+7 to process a clients wishlist
+8 to recieve a shipment
+9 to display client's invoices
+10 to display a products waitlist
+11 to receive a payment
+12 to save
+13 to retrieve
+14 for help
+Enter command:14 for help
+1
+Enter client name
+Mika
+Enter address
+333
+Enter phone
+4444
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+1
+Enter client name
+j
+Enter address
+444
+Enter phone
+333
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+1
+Enter client name
+nico
+Enter address
+777
+Enter phone
+456
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+1
+Enter client name
+john
+Enter address
+35555 
+Enter phone
+8765
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+1
+Enter client name
+poke
+Enter address
+33333
+Enter phone
+22222
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 0.0 Credit: 0.0
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 0.0 Credit: 0.0
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 0.0 Credit: 0.0
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+3
+Enter product name
+P1
+Enter stock amount
+10
+Enter price
+1
+Product added: Name: P1 | Stock: 10 | ID: P1 | Price: $1.0
+Do you want to add another product? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P2
+Enter stock amount
+20
+Enter price
+2
+Product added: Name: P2 | Stock: 20 | ID: P2 | Price: $2.0
+Do you want to add another product? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P3
+Enter stock amount
+30
+Enter price
+3
+Product added: Name: P3 | Stock: 30 | ID: P3 | Price: $3.0
+Do you want to add another product? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P4
+Enter stock amount
+40
+Enter price
+4
+Product added: Name: P4 | Stock: 40 | ID: P4 | Price: $4.0
+Do you want to add another product? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P5
+Enter stock amount
+50
+Enter price
+5
+Product added: Name: P5 | Stock: 50 | ID: P5 | Price: $5.0
+Do you want to add another product? (Y|y for yes, any other key for no): 
+n
+Enter command:14 for help
+4
+Name: P1 | Stock: 10 | ID: P1 | Price: $1.0
+Name: P2 | Stock: 20 | ID: P2 | Price: $2.0
+Name: P3 | Stock: 30 | ID: P3 | Price: $3.0
+Name: P4 | Stock: 40 | ID: P4 | Price: $4.0
+Name: P5 | Stock: 50 | ID: P5 | Price: $5.0
+Enter command:14 for help
+5
+Enter client ID
+C1
+Enter product name
+P1
+Enter quantity
+5
+Product added to wishlist: P1 (Quantity: 5)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P3
+Enter quantity
+5
+Product added to wishlist: P3 (Quantity: 5)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P5
+Enter quantity
+5
+Product added to wishlist: P5 (Quantity: 5)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+n
+Enter command:14 for help
+6
+Enter client ID
+C1
+Product Name: P3 | ID: P3 | Quantity: 5 | Total Price: $15.0
+Product Name: P5 | ID: P5 | Quantity: 5 | Total Price: $25.0
+Product Name: P1 | ID: P1 | Quantity: 5 | Total Price: $5.0
+Enter command:14 for help
+5
+Enter client ID
+C2
+Enter product name
+P1
+Enter quantity
+7
+Product added to wishlist: P1 (Quantity: 7)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P2
+Enter quantity
+7
+Product added to wishlist: P2 (Quantity: 7)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P4
+Enter quantity
+7
+Product added to wishlist: P4 (Quantity: 7)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+n
+Enter command:14 for help
+6
+Enter client ID
+C2
+Product Name: P2 | ID: P2 | Quantity: 7 | Total Price: $14.0
+Product Name: P1 | ID: P1 | Quantity: 7 | Total Price: $7.0
+Product Name: P4 | ID: P4 | Quantity: 7 | Total Price: $28.0
+Enter command:14 for help
+5
+Enter client ID
+C3
+Enter product name
+P1
+Enter quantity
+6
+Product added to wishlist: P1 (Quantity: 6)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P2
+Enter quantity
+6
+Product added to wishlist: P2 (Quantity: 6)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+y
+Enter product name
+P5
+Enter quantity
+6
+Product added to wishlist: P5 (Quantity: 6)
+Do you want to add another product to the client's wishlist? (Y|y for yes, any other key for no): 
+n
+Enter command:14 for help
+6
+Enter client ID
+C3
+Product Name: P5 | ID: P5 | Quantity: 6 | Total Price: $30.0
+Product Name: P2 | ID: P2 | Quantity: 6 | Total Price: $12.0
+Product Name: P1 | ID: P1 | Quantity: 6 | Total Price: $6.0
+Enter command:14 for help
+7
+Enter client ID
+C2
+Product: P2 | Requested: 7 | Available: 20
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Product: P1 | Requested: 7 | Available: 10
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Product: P4 | Requested: 7 | Available: 40
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Generated Invoice:
+Invoice for j
+Date: Thu Oct 31 00:23:53 UTC 2024
+Ordered items:
+P1 | Quantity: 7 | Price: $1.0 | Subtotal: $7.0
+P2 | Quantity: 7 | Price: $2.0 | Subtotal: $14.0
+P4 | Quantity: 7 | Price: $4.0 | Subtotal: $28.0
+Total Cost: $49.0
+
+Wishlist has been cleared. Order has been placed.
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 0.0 Credit: 0.0
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 49.0 Credit: 0.0
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 0.0 Credit: 0.0
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+7
+Enter client ID
+C3
+Product: P5 | Requested: 6 | Available: 50
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Product: P2 | Requested: 6 | Available: 13
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Product: P1 | Requested: 6 | Available: 3
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Only 3 of 6 could be fulfilled. Remaining 3 has been added to the waitlist.
+Generated Invoice:
+Invoice for nico
+Date: Thu Oct 31 00:24:09 UTC 2024
+Ordered items:
+P1 | Quantity: 3 | Price: $1.0 | Subtotal: $3.0
+P5 | Quantity: 6 | Price: $5.0 | Subtotal: $30.0
+P2 | Quantity: 6 | Price: $2.0 | Subtotal: $12.0
+Total Cost: $45.0
+
+Wishlist has been cleared. Order has been placed.
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 0.0 Credit: 0.0
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 49.0 Credit: 0.0
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 45.0 Credit: 0.0
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+7
+Enter client ID
+C3
+The wishlist is empty.
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 0.0 Credit: 0.0
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 49.0 Credit: 0.0
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 45.0 Credit: 0.0
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+6
+Enter client ID
+C2
+The wishlist is empty.
+Enter command:14 for help
+6
+Enter client ID
+C3
+The wishlist is empty.
+Enter command:14 for help
+10
+Enter product name
+P1
+Waitlist for product: P1
+Waitlist:
+Client: nico | Requested Quantity: 3
+
+Enter command:14 for help
+10
+Enter product name
+P2
+No waitlist entries for this product.
+Enter command:14 for help
+7
+Enter client ID
+C1
+Product: P3 | Requested: 5 | Available: 30
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Product: P5 | Requested: 5 | Available: 44
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Product: P1 | Requested: 5 | Available: 0
+Options: (1)Change quantity, (2)Remove item, (3)Leave as is
+3
+Only 0 of 5 could be fulfilled. Remaining 5 has been added to the waitlist.
+Generated Invoice:
+Invoice for Mika
+Date: Thu Oct 31 00:25:18 UTC 2024
+Ordered items:
+P3 | Quantity: 5 | Price: $3.0 | Subtotal: $15.0
+P1 | Quantity: 0 | Price: $1.0 | Subtotal: $0.0
+P5 | Quantity: 5 | Price: $5.0 | Subtotal: $25.0
+Total Cost: $40.0
+
+Wishlist has been cleared. Order has been placed.
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 40.0 Credit: 0.0
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 49.0 Credit: 0.0
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 45.0 Credit: 0.0
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+6
+Enter client ID
+C1
+The wishlist is empty.
+Enter command:14 for help
+11
+Enter client ID
+C1
+Payment Due: 40.0
+Enter card number
+123
+Enter payment amount
+100
+Payment received, Current balance is: 0.0
+Enter command:14 for help
+11
+Enter client ID
+C2
+Payment Due: 49.0
+Enter card number
+1 456
+Enter payment amount
+100
+Payment received, Current balance is: 0.0
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 0.0 Credit: 60.0
+Client Name: j Id: C2 Address: 444 Phone: 333 Balance: 0.0 Credit: 51.0
+Client Name: nico Id: C3 Address: 777 Phone: 456 Balance: 45.0 Credit: 0.0
+Client Name: john Id: C4 Address: 3555 Phone: 8765 Balance: 0.0 Credit: 0.0
+Client Name: poke Id: C5 Address: 33333 Phone: 22222 Balance: 0.0 Credit: 0.0
+Enter command:14 for help
+14
+Enter a number between 0 and 13 as explained below:
+0 to Exit
+
+1 to add a client
+2 to display clients
+3 to add a product
+4 to display products
+5 to add products to a clients wishlist
+6 to display a clients wishlist
+7 to process a clients wishlist
+8 to recieve a shipment
+9 to display client's invoices
+10 to display a products waitlist
+11 to receive a payment
+12 to save
+13 to retrieve
+14 for help
+Enter command:14 for help
+8
+Enter product name: P1
+Enter quantity received: 100
+Shipment received. Updated stock for P1: 100
+Fulfilled waitlist for client: nico
+Invoice for nico
+Date: Thu Oct 31 00:26:20 UTC 2024
+Ordered items:
+P1 | Quantity: 3 | Price: $1.0 | Subtotal: $3.0
+Total Cost: $3.0
+
+Fulfilled waitlist for client: Mika
+Invoice for Mika
+Date: Thu Oct 31 00:26:20 UTC 2024
+Ordered items:
+P1 | Quantity: 5 | Price: $1.0 | Subtotal: $5.0
+Total Cost: $5.0
+
+Enter command:14 for help
+4
+Name: P1 | Stock: 92 | ID: P1 | Price: $1.0
+Name: P2 | Stock: 7 | ID: P2 | Price: $2.0
+Name: P3 | Stock: 25 | ID: P3 | Price: $3.0
+Name: P4 | Stock: 33 | ID: P4 | Price: $4.0
+Name: P5 | Stock: 39 | ID: P5 | Price: $5.0
+Enter command:14 for help
+2
+Client Name: Mika Id: C1 Address: 333 Phone: 4444 Balance: 5.0 Credit
